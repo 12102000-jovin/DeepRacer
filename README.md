@@ -10,5 +10,5 @@ In a discrete action space, you can select a set of choices for speed and steeri
 
 I am using the continuous action space because it allows the agent to make small adjustments and achieve smoother driving on the track. However, it faces challenges in finding the right balance between speed and control. To get better results, I recommend training it for more than an hour. Since there are no fixed choices, the agent needs to explore and experiment with various values within the specified ranges.
 
-![image](https://github.com/12102000-jovin/DeepRacer/assets/84697754/cb37ce24-18c4-4d74-9eb0-8c7cf85bba13)
+
 
