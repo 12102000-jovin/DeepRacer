@@ -36,3 +36,6 @@ When it comes to naming your models, it’s important to do it systematically. S
 During the evaluation phase, you can observe how your model performs within the simulated environment. Some models might navigate flawlessly in simulation, while others might go off the track several times. Based on these evaluation outcomes, you will most likely be selecting models that performed well in the simulated environment for physical track testing. However, I recommend that you test all your models on the physical track, regardless of their simulated performance. This is crucial because certain models that struggle in the simulated environment might surprise you by performing well on the physical track. This might happen due to different conditions and elements present in the physical environment. So, it is a good idea to give every model a chance on the real track to truly see how they perform and make more informed decisions.
 
 
+
+## Model
+
