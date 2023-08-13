@@ -41,8 +41,14 @@ During the evaluation phase, you can observe how your model performs within the 
 
 ### Hyperparameter Selection and Time
 
-| First Header  | Second Header |
+| Hyperparameter and time | Initial | Clone 1 | Clone 2 |
 | ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
+| Gradient descent batch size  | 64 |
+| Number of epochs  | 10  |
+| Learning rate |
+| Entropy |
+| Discount factor |
+| Loss type |
+| Number of experience episodes between each policy-updating iteration |
+| Time (mins.) | 
 
