@@ -15,7 +15,24 @@ I am using the continuous action space because it allows the agent to make small
   <img src="Images/ContinuousActionSpace.png" width="450" /> 
 </p>
 
+### Recommendation 2: Prioritize Lap Completion over Speed
 
+I recommend prioritizing lap completion over speed initially in your DeepRacer model. Instead of chasing maximum speed, focus on completing laps smoothly and efficiently to allow the agent to learn the track's layout and optimal racing line. Once your agent performs well on the track, you can gradually increase the speed of the agent when you clone them.
 
+### Recommendation 3: Use relevant parameters for your training target.
+
+If your current model training prioritizes keeping the agent on track at all times, consider minimizing or eliminating parameters that are unrelated to that goal. For instance, you can remove the "speed" parameter or reduce the penalty associated with it. Instead, place more emphasis on the "all_wheels_on_track" parameter when training to ensure the agent stays on track consistently. By focusing on relevant parameters, you can better align your training target with the desired behaviour of the agent.
+
+### Recommendation 4: Modifying Hyperparameters When Cloning Your Model
+
+When you clone your DeepRacer model, consider adjusting its hyperparameters. These settings affect how the model learns and drives. My recommendation is to lower the learning rate and increase the training time each time you clone the model. Additionally, try increasing the batch size and the number of training episodes. These changes can help your cloned model learn better and improve its driving performance on the track. However, you need to consider how each clone models perform in the evaluation and physical track when changing the hyperparameter.
+
+### Recommendation 5: Organise Your Model Naming Convention
+
+When it comes to naming your models, it’s important to do it systematically. Since you’ll be training multiple models and each model with have its own set of clones with different tunings, having a clear naming convention is highly recommended. This allows you to easily keep track of each model’s performance and its associated parameters. For instance, I use a naming convention based on “Version.” The initial model is named “Version1,” and its clones are labelled as “Version1-1,” Version1-2”, and so on. This way, when a particular model or clone performs well, you can quickly identify the reward function, hyperparameters, and other settings used in that specific model iteration. This organised naming system simplifies your management and analysis of different models throughout your training process.
+
+### Recommendation 6: Test All Your Model in Physical Track
+
+During the evaluation phase, you can observe how your model performs within the simulated environment. Some models might navigate flawlessly in simulation, while others might go off the track several times. Based on these evaluation outcomes, you will most likely be selecting models that performed well in the simulated environment for physical track testing. However, I recommend that you test all your models on the physical track, regardless of their simulated performance. This is crucial because certain models that struggle in the simulated environment might surprise you by performing well on the physical track. This might happen due to different conditions and elements present in the physical environment. So, it is a good idea to give every model a chance on the real track to truly see how they perform and make more informed decisions.
 
 
