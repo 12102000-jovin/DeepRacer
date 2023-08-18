@@ -11,8 +11,8 @@ In a discrete action space, you can select a set of choices for speed and steeri
 I am using the continuous action space because it allows the agent to make small adjustments and achieve smoother driving on the track. However, it faces challenges in finding the right balance between speed and control. To get better results, I recommend training it for more than an hour. Since there are no fixed choices, the agent needs to explore and experiment with various values within the specified ranges.
 
 <p float="left">
-  <img src="Images/DiscreteActionSpace.png" width="350"/>
-  <img src="Images/ContinuousActionSpace.png" width="350" /> 
+  <img src="Images/DiscreteActionSpace.png" width="350" height="600"/>
+  <img src="Images/ContinuousActionSpace.png" width="350" height="600"/> 
 </p>
 
 ### Recommendation 2: Prioritize Lap Completion over Speed
@@ -52,5 +52,9 @@ During the evaluation phase, you can observe how your model performs within the 
 | Time (mins) | 90 | 90 | 120 |
 | Min Speed (m/s) | 0.5 | 0.5 | 1.25 |
 | Max Speed (m/s) | 2.0| 2.4 | 2.8 |
+
+
+
+## Training Reward Graph
 
 
