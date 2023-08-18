@@ -57,9 +57,9 @@ During the evaluation phase, you can observe how your model performs within the 
 
 ## Training Reward Graph
 <p float="left">
-  <img src="Images/RewardGraph1.png" width="350"/>
-  <img src="Images/RewardGraph2.png" width="350"/> 
-  <img src="Images/RewardGraph3.png" width="350"/> 
+  <img src="Images/RewardGraph1.png" width="200"/>
+  <img src="Images/RewardGraph2.png" width="200"/> 
+  <img src="Images/RewardGraph3.png" width="200"/> 
 </p>
 
 
