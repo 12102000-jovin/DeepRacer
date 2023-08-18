@@ -61,14 +61,6 @@ During the evaluation phase, you can observe how your model performs within the 
 |---------|---------|---------|
 | <img src="Images/RewardGraph1.png" alt="Reward Graph 1" width="300"/> | <img src="Images/RewardGraph2.png" alt="Reward Graph 2" width="300"/> | <img src="Images/RewardGraph3.png" alt="Reward Graph 3" width="300"/> |
 
-## Simulation Video
-
-
-
-https://github.com/12102000-jovin/DeepRacer/assets/84697754/65d97742-02d6-4a95-a80d-d58269f56430
-
-
-
 ## Reward Function
 ```python
 def reward_function(params):
@@ -122,6 +114,10 @@ def reward_function(params):
     return float(reward)
 
 ```
+
+## Simulation Video
+
+https://github.com/12102000-jovin/DeepRacer/assets/84697754/65d97742-02d6-4a95-a80d-d58269f56430
 
 
 
