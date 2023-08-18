@@ -60,6 +60,7 @@ During the evaluation phase, you can observe how your model performs within the 
 | <img src="Images/RewardGraph1.png" alt="Reward Graph 1" width="300"/> | <img src="Images/RewardGraph2.png" alt="Reward Graph 2" width="300"/> | <img src="Images/RewardGraph3.png" alt="Reward Graph 3" width="300"/> |
 
 
+## Reward Function
 ```python
 def reward_function(params):
 
