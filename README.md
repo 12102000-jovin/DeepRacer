@@ -11,8 +11,8 @@ In a discrete action space, you can select a set of choices for speed and steeri
 I am using the continuous action space because it allows the agent to make small adjustments and achieve smoother driving on the track. However, it faces challenges in finding the right balance between speed and control. To get better results, I recommend training it for more than an hour. Since there are no fixed choices, the agent needs to explore and experiment with various values within the specified ranges.
 
 <p float="left">
-  <img src="Images/DiscreteActionSpace.png" width="350" height="500"/>
-  <img src="Images/ContinuousActionSpace.png" width="350" height="500"/> 
+  <img src="Images/DiscreteActionSpace.png" width="350" height="400"/>
+  <img src="Images/ContinuousActionSpace.png" width="350" height="400"/> 
 </p>
 
 ### Recommendation 2: Prioritize Lap Completion over Speed
@@ -53,11 +53,14 @@ During the evaluation phase, you can observe how your model performs within the 
 | Min Speed (m/s) | 0.5 | 0.5 | 1.25 |
 | Max Speed (m/s) | 2.0| 2.4 | 2.8 |
 
+
+
 ## Training Reward Graph
 
 | Initial | Clone 1 | Clone 2 |
 |---------|---------|---------|
 | <img src="Images/RewardGraph1.png" alt="Reward Graph 1" width="300"/> | <img src="Images/RewardGraph2.png" alt="Reward Graph 2" width="300"/> | <img src="Images/RewardGraph3.png" alt="Reward Graph 3" width="300"/> |
+
 
 
 ## Reward Function
@@ -111,6 +114,16 @@ def reward_function(params):
         reward -= 0.5
 
     return float(reward)
+
+## Simulation Video
+
+
+https://github.com/12102000-jovin/DeepRacer/assets/84697754/6f1117cb-831a-4f49-8822-c1498f481a67
+
+
+
+
+
 
 
 
