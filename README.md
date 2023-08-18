@@ -44,12 +44,13 @@ During the evaluation phase, you can observe how your model performs within the 
 | Hyperparameter and time | Initial | Clone 1 | Clone 2 |
 | ----------------------- | ------- | ------- | ------- |
 | Gradient descent batch size | 64 | 10 | 10 |
+| Entropy | 0.01 | 10 | 10 |
+| Discount factor | 0.999 | 10 | 10 |
+| Learning rate | 0.0003 | 10 | 10 |
+| Number of experience episodes between each policy-updating iteration | 20 | 10 | 10 |
 | Number of epochs | 10 | 10 | 10 |
-| Learning rate | 10 | 10 | 10 |
-| Entropy | 10 | 10 | 10 |
-| Discount factor | 10 | 10 | 10 |
-| Loss type | 10 | 10 | 10 |
-| Number of experience episodes between each policy-updating iteration | 10 | 10 | 10 |
-| Time (mins.) | 10 | 10 | 10 |
+| Time (mins) | 90 | 10 | 10 |
+| Min Speed (m/s) | 0.5 | 10 | 10 |
+| Max Speed (m/s) | 2.0| 2.0 | 2.0 |
 
 
