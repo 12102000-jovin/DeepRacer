@@ -53,12 +53,12 @@ During the evaluation phase, you can observe how your model performs within the 
 | Min Speed (m/s) | 0.5 | 0.5 | 1.25 |
 | Max Speed (m/s) | 2.0| 2.4 | 2.8 |
 
-
 ## Training Reward Graph
 
-| Initial            | Clone 1            | Clone 2            |
-|--------------------|--------------------|--------------------|
-| ![Reward Graph 1](Images/RewardGraph1.png) | ![Reward Graph 2](Images/RewardGraph2.png) | ![Reward Graph 3](Images/RewardGraph3.png) |
+| Initial | Clone 1 | Clone 2 |
+|---------|---------|---------|
+| <img src="Images/RewardGraph1.png" alt="Reward Graph 1" width="300"/> | <img src="Images/RewardGraph2.png" alt="Reward Graph 2" width="300"/> | <img src="Images/RewardGraph3.png" alt="Reward Graph 3" width="300"/> |
+
 
 
 
