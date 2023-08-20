@@ -39,7 +39,7 @@ During the evaluation phase, you can observe how your model performs within the 
 
 ## CenterAlignModel
 
-The CenterAlignModel is designed with a primary objective of centering itself on the track, allowing for accurate steering and a consistent pace. By prioritizing this centerline alignment strategy, the model aims to navigate the racing environment effectively. It was trained using the Re:Invent 2016 track as a basis for its learning process. 
+The CenterAlignModel is designed with the primary objective of centering itself on the track, allowing for accurate steering and a consistent pace. By prioritizing this centerline alignment strategy, the model aims to navigate the racing environment effectively. It was trained using the Re:Invent 2018 track as the basis for its learning process. 
 
 staying on track and maintaining it in the middle of the track, and ensuring the model turns smoothly. It was trained on the Re:Invent 2016 track. 
 
